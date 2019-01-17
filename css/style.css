@@ -32,7 +32,7 @@ header{
   color:#ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #b30000 3px solid;
+  border-bottom: #DF4F3F 3px solid;
 }
 
 header a{
@@ -62,7 +62,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color: #ffffff;
+  color: #DF4F3F;
   font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height: 420px;
+  min-height: 380px;
   background:url('../img/showcase3.jpg') no-repeat 0 -70px;
   text-align: center;
   color:#ffffff;
@@ -103,11 +103,12 @@ header a:hover{
   width: 30%;
   padding: 10px;
   text-align: center;
+  font-size: 14px;
 }
 
 #boxes .box img{
   width: 150px;
-  height: 140px;
+  height: 150px;
 }
 
 /* Sidebar */
@@ -137,7 +138,7 @@ footer{
   padding:20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #b30000;
+  background-color: #DF4F3F;
   text-align: center;
 }
 
