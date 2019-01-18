@@ -8,7 +8,7 @@ body{
 
 /* Global */
 .container{
-  width: 80%;
+  width: 75%;
   margin:auto;
   overflow: hidden;
 }
@@ -77,6 +77,7 @@ header a:hover{
   background:url('../img/showcase3.jpg') no-repeat 0 -70px;
   text-align: center;
   color:#ffffff;
+  margin-bottom: 30px;
 }
 
 #showcase h1{
@@ -111,17 +112,28 @@ header a:hover{
   height: 150px;
 }
 
+/* Dog */
+
+
 /* Sidebar */
 aside#sidebar{
   float:right;
-  width: 30%;
+  width: 17%;
   margin-top: 10px;
 }
 
 /* Main-col */
 article#main-col{
   float:left;
-  width: 65%;
+  width: 80%;
+  height: 100%
+}
+
+article#main-col .dog img{
+  float:left;
+  width: 330px;
+  padding-bottom: 20px;
+  padding-right: 30px;
 }
 
 /* Projects */
@@ -129,8 +141,22 @@ ul#projects li{
   list-style: none;
   padding: 20px;
   border: #cccccc solid 1px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   background: #e6e6e6;
+}
+
+#projects h3{
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+#projects .info{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 /* Footer */
